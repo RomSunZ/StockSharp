@@ -543,7 +543,7 @@ namespace StockSharp.Quik
 
 		private QuikDdeAdapter _adapter;
 
-		internal QuikDdeAdapter Adapter
+		public QuikDdeAdapter Adapter
 		{
 			private get
 			{

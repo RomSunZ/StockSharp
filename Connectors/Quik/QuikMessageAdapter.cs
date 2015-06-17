@@ -23,7 +23,7 @@ namespace StockSharp.Quik
 			SecurityClassInfo.FillDefault();
 		}
 
-		internal Func<QuikTerminal> GetTerminal;
+		public Func<QuikTerminal> GetTerminal;
 
 		//internal QuikTerminal GetTerminal()
 		//{

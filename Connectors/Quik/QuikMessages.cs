@@ -7,18 +7,18 @@
 
 	using StockSharp.Messages;
 
-	class HistoryLevel1ChangeMessage : Level1ChangeMessage
+	public class HistoryLevel1ChangeMessage : Level1ChangeMessage
 	{
 	}
 
-	enum CustomExportType
+	public enum CustomExportType
 	{
 		Table,
 		Tables,
 		Caption
 	}
 
-	class CustomExportMessage : MarketDataMessage
+	public class CustomExportMessage : MarketDataMessage
 	{
 		public CustomExportType ExportType { get; private set; }
 
